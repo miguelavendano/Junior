@@ -18,30 +18,10 @@
 }
 
 .contenido{
-	padding-top: 80px; 
+	padding-top: 50px; 
 	padding-bottom: 30px; 
 }
 
 body{
 	background:#F2F2F2;
-}
-
-.span1{
-	border: 1px solid;
-}
-
-.span2{
-	border: 1px solid;
-}
-
-.span3{
-	border: 1px solid;
-}
-
-.span4{
-	border: 1px solid;
-}
-
-.span12{
-	border: 1px solid;
 }
