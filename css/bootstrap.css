@@ -309,10 +309,12 @@ a:hover {
 
 .span8 {
   width: 620px;
+  background: white;
 }
 
 .span7 {
   width: 540px;
+  background: white;
 }
 
 .span6 {
@@ -333,6 +335,7 @@ a:hover {
 
 .span2 {
   width: 140px;
+  background: white;
 }
 
 .span1 {
