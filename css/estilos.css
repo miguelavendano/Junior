@@ -9,16 +9,16 @@
 }
 
 .navbar-inner{
-	/*height: 60px;*/
+	/*height: 80px;*/
 	height: auto;
 }
 
 .header .container-fluid{
-	padding-top: 10px;	
+	padding-top: 20px;	
 }
 
 .contenido{
-	padding-top: 100px; 
+	padding-top: 80px; 
 	padding-bottom: 30px; 
 }
 
@@ -26,6 +26,22 @@ body{
 	background:#F2F2F2;
 }
 
+.span1{
+	border: 1px solid;
+}
 
+.span2{
+	border: 1px solid;
+}
 
+.span3{
+	border: 1px solid;
+}
 
+.span4{
+	border: 1px solid;
+}
+
+.span12{
+	border: 1px solid;
+}
