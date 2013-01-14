@@ -7,3 +7,25 @@
 .color_p3{
 	background : blue;	
 }
+
+.navbar-inner{
+	/*height: 60px;*/
+	height: auto;
+}
+
+.header .container-fluid{
+	padding-top: 10px;	
+}
+
+.contenido{
+	padding-top: 100px; 
+	padding-bottom: 30px; 
+}
+
+body{
+	background:#F2F2F2;
+}
+
+
+
+
