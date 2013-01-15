@@ -1,27 +1,21 @@
-.color_p{
-	background : #ccc;	
-}
-.color_p2{
-	background : red;	
-}
-.color_p3{
-	background : blue;	
-}
-
-.navbar-inner{
-	/*height: 80px;*/
+/* .navbar-inner{
 	height: auto;
-}
+} */
 
 .header .container-fluid{
-	padding-top: 20px;	
-}
+	float: inherit;
+	margin: 0 auto;
+	margin-top: 20px;
+	/* border: 1px solid; */
+	max-width: 950px;
+} 
 
 .contenido{
-	padding-top: 100px; 
-	padding-bottom: 30px; 
+	float: inherit;
+	margin-top: 100px;
 }
 
 body{
-	background:#F2F2F2;
+	background:#F2F2F2;	
 }
+
