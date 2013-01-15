@@ -16,7 +16,7 @@
 }
 
 body{
-	background:#F2F2F2;	
+	/*background:#F2F2F2;	*/
 }
 
 
@@ -42,14 +42,16 @@ body{
 	text-align: left;
 }
 
-
 .publicidad img{
 
 	float: center;
 	margin-top: 2%;
 	margin-left: 2%;
-	
+}
 
+.accordion{
+	position: fixed;
+	width: inherit;
 
 
 }
