@@ -1,6 +1,6 @@
 
 .resultados{
-	border: 1px grey solid;	
+	border: 1px #88bfe8 solid;	
 	margin-top: 5px;
 	width:inherit;
 	height: 130px;
@@ -72,10 +72,19 @@
 	margin-top: 5px;
 	width:inherit;
 	height: 100px;
+
 	
 	/*background: grey;*/
 
 }
+
+.accordion2 a{
+
+	float: center;
+	background: #88bfe8;
+	color: white;
+}
+
 
 /*#acordion-formulario{
 
