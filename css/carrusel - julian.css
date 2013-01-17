@@ -1,21 +1,54 @@
 .busqueda{
+	margin-top: 20px;
     border: 1px solid;
 }
 
-.ferrocarril{
-    margin-top: 20px;
-    /* padding-left: 50px; */
-    /* padding-left: 50px; */
-/*     background-color: #2F2F2F;     */
-    /* border: 4px solid; */
+.ferro{
+	margin-top: 20px;
+	/* background: red; 	*/
+	border: 2px solid;
 }
 
 
-/* #hWrapper{
-    margin: 0;
-    padding: 0;
+.carrusel_publicidad{
+	position: relative;	
+	margin-left: 30px;		
+ 	padding: 20px 15px 0px 15px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 90%;	
+}
+
+.im_perfil{
     width: 100%;
-    height: 100%;
-    padding: 8px 20px 0px 20px;
+    height:250px;
+    padding-top: 50px;
+    /* background: red; */
+ }
+
+.mas_contenido{
+	margin-top: 20px;
+	padding-top: 50px;
+	/* font-size: 80px; */
+	text-align: center;
+	width: 100%;
+	height: 900px;		
+	border: 2px solid;
 }
- */
+
+.mas_contenido h1{
+	font-size: 100px;
+}
+
+.mas_contenido p{
+	font-size: 80px;
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+
+
+ 

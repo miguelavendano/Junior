@@ -38,12 +38,12 @@
 {      /*contenedor de imagenes y texto*/
 	/* width: 690px;
 	height: 224px; */
-	width: 790px;
+	width: 720px;
 	height: 220px;	
 	float: left;
 	position: relative;
 	overflow: hidden;
-	/* background: red; */
+	 /* background: red; */
 }
 .jscarousal-contents-horizontal > div
 {      
@@ -57,9 +57,9 @@
 	float: left;
 	margin-left: 8px;
 	margin-right: 8px;
-	width: 180px;
+	width: 160px;
 	height: 220px;	
-	 /* background: green; */	 
+	/* background: green; */
 } 
 .jscarousal-contents-horizontal img
 {	   /*tamaño imagen*/
@@ -166,11 +166,10 @@ Vertical Orientation CSS Ends */
 	text-align: left;
 /* display: inline-block;  */
 	display:block;
-	padding: 8px 2px 2px 0px;
+	padding: 8px 2px 2px 6px;
 	width: 180px;
-	height: 70px;
+	height: 70px;	
 }
-
 .thumbnail-titulo
 {		/*diseño del titulo*/
 	color: #7A7677;

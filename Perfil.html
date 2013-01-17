@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!--link href="css/bootstrap-responsive.css" rel="stylesheet"-->
+    <link href="css/estilos.css" rel="stylesheet">
+    <link href="css/estilos - miguel.css" rel="stylesheet">
+    <link href="css/carrusel - julian.css" rel="stylesheet"> 
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jsCarousel-2.0.0.css" rel="stylesheet" type="text/css" />
+
+    <!-- Elementos para el carrusel --> 
+    <!--  <script src="js/jquery-1.7.2.min.js"></script> -->
+    <script src="js/bootstrap/bootstrap-transition.js"></script>
+    <script src="js/lazy-bootstrap-carousel.js"></script>
+    <script src="js/base-carrusel.js"></script>
+
+    <!-- Elementos para el ferrocaril de imagenes -->   
+    <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="js/jsCarousel-2.0.0.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#carouselh').jsCarousel({ onthumbnailclick: function(src) { alert(src); }, autoscroll: true, circular: true, masked: false, itemstodisplay: 4, orientation: 'h' });
+        });               
+    </script>
+</head>
+<body>
+
+    <div class="header">
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">          
+                <div class="container-fluid ">
+                  <div class="row-fluid">
+                    <div class="span12">
+                      <div class="row-fluid">
+                        <div class="span6">
+                            <a class="brand" href="#">JUNIOR</a>                    
+                        </div>
+                        <div class="span6">
+                            <form class="navbar-form pull-right">
+                                <input type="text" id="busca" placeholder="Que buscas?">
+                                <button type="submit" class="btn">Submit</button>
+                            </form>                                 
+                        </div>
+                        <!--div class="span3">
+                            <ul class="nav pull-right">
+                                <li class="divider-vertical"></li>
+                                <li><a href="#">Ingresar</a></li>           
+                                <li class="divider-vertical"></li>
+                                <li><a href="#">Registrarse</a></li>
+                                <li class="divider-vertical"></li>
+                            </ul>                                                   
+                        </div-->                  
+                      </div>                  
+                    </div>                
+                  </div>                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">          
+                <div class="container-fluid ">
+                  <div class="row-fluid">
+                    <div class="span12">
+                      <div class="row-fluid">
+                        <div class="span6">
+                            <a class="brand" href="#">JUNIOR</a>                    
+                        </div>
+                        <div class="span6">
+                            <form class="navbar-form pull-right">
+                                <input type="text" id="busca" placeholder="Que buscas?">
+                                <button type="submit" class="btn">Submit</button>
+                            </form>                                 
+                        </div>
+                        <!--div class="span3">
+                            <ul class="nav pull-right">
+                                <li class="divider-vertical"></li>
+                                <li><a href="#">Ingresar</a></li>           
+                                <li class="divider-vertical"></li>
+                                <li><a href="#">Registrarse</a></li>
+                                <li class="divider-vertical"></li>
+                            </ul>                                                   
+                        </div-->                  
+                      </div>                  
+                    </div>                
+                  </div>                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenido">
+
+        <div class="container-fluid">
+
+            <div class="row-fluid">         
+                <div class="span12">
+
+                    <div class="span2">  <!-- MENU ACORDEON -->
+                        <div class="accordion" id="accordion2">  
+                            <div class="accordion-group">  
+                                <div class="accordion-heading">  
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">  
+                                          Motocicletas
+                                        </a>  
+                                </div>  
+                                <div id="collapseOne" class="accordion-body collapse" style="height: 0px; ">  
+                                    <div class="accordion-inner">  
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Motores</a></br>
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Pastas</a></br>                 
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Motores</a></br>
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Pastas</a>
+                                    </div>  
+                                </div>  
+                            </div>  
+                            <div class="accordion-group">  
+                                <div class="accordion-heading">  
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">  
+                                        Camiones
+                                    </a>  
+                                </div>  
+                                <div id="collapseTwo" class="accordion-body collapse">  
+                                    <div class="accordion-inner">  
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Motores</a></br>
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Pastas</a></br>                 
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Motores</a></br>
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Pastas</a>                                  
+                                    </div>  
+                                </div>  
+                            </div>  
+                            <div class="accordion-group">  
+                                <div class="accordion-heading">  
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">  
+                                        Volquetas
+                                    </a>  
+                                </div>  
+                                <div id="collapseThree" class="accordion-body collapse">  
+                                    <div class="accordion-inner">  
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Motores</a></br>
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Pastas</a></br>                 
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Motores</a></br>
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Pastas</a>  
+                                    </div>  
+                                </div>  
+                            </div>  
+
+                            <div class="accordion-group">  
+                                <div class="accordion-heading">  
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">  
+                                        Retro escabadoras
+                                    </a>  
+                                </div>  
+                                <div id="collapseFour" class="accordion-body collapse">  
+                                    <div class="accordion-inner">  
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Motores</a></br>
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Pastas</a></br>                 
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Motores</a></br>
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Pastas</a>  
+                                    </div>  
+                                </div>  
+                            </div>  
+
+                            <div class="accordion-group">  
+                                <div class="accordion-heading">  
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">  
+                                        Tracto Mulas
+                                    </a>  
+                                </div>  
+                                <div id="collapseFive" class="accordion-body collapse">  
+                                    <div class="accordion-inner">  
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Motores</a></br>
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Pastas</a></br>                 
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Motores</a></br>
+                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Pastas</a>  
+                                    </div>  
+                                </div>  
+                            </div>                      
+                        </div>
+                    </div>              
+
+                    <div class="span8">     <!-- CONTENIDO PRINCIPAL-->             
+                        <div class="im_perfil">
+                           <!-- <img src="imagenes/Goku.jpeg" class="img-polaroid"> -->                             
+                        </div>
+                        
+                    
+
+    
+                                            
+                        
+                        <!-- FERROCARIL DE IMAGENES -->
+                        <div class="ferrocarril">
+
+                            <div id="hWrapper">
+                                <div id="carouselh">
+                                    <div>
+                                        <div class="thumbnail-titulo">Titulo</div>
+                                        <img alt="" src="images/img_1.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="thumbnail-titulo">Titulo</div>
+                                        <img alt="" src="images/img_2.jpg" /><br />
+                                        <div class="thumbnail-text">                    
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="thumbnail-titulo">Titulo</div>
+                                        <img alt="" src="images/img_1.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="thumbnail-titulo">Titulo</div>
+                                        <img alt="" src="images/img_4.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img alt="" src="images/img_5.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img alt"" src="images/img_6.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img alt="" src="images/img_7.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img alt="" src="images/img_8.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img alt="" src="images/img_9.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img alt="" src="images/img_10.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img alt="" src="images/img_11.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img alt="" src="images/img_12.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img alt="" src="images/img_13.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img alt="" src="images/img_14.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img alt="" src="images/img_15.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img alt="" src="images/img_16.jpg" /><br />
+                                        <div class="thumbnail-text">
+                                            <p>Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text Image Text</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2>Contenido </h2><br>
+                        <h2>Contenido </h2><br>
+                        <h2>Contenido </h2><br>
+                        <h2>Contenido </h2><br>
+                        <h2>Contenido </h2><br>
+                        <h2>Contenido </h2><br>
+                        <h2>Contenido </h2><br>
+                        <h2>Contenido </h2><br>
+                        <h2>Contenido </h2><br>             
+                        <h2>Contenido </h2><br>
+
+                    </div>    <!-- /span8 -->
+  
+                    <!-- PUBLICIDAD --> 
+                    <div class="span2">     
+                        <div class="publicidad">
+                            <a href="#"><h5> DISEÑO WEB</h5></a>
+                            <img src="imagenes/nueva2.jpg" height="40" whith="40"></img>
+                            <p>Este espacio está disponible para publicidad de su empresa.      
+                                <a href="#">leer mas</a>    
+                            </p>
+                        </div>
+                        <div class="publicidad">
+                            <a href="#"><h5> ERP. Sistema de administración de recursos</h5></a>
+                            <img src="imagenes/nueva3.jpg" height="40" whith="40"></img>
+                            <p>Este espacio está disponible para publicidad de su empresa.
+                                <a href="#">leer mas</a>    
+                            </p>                         
+                        </div>                      
+                        <div class="publicidad">
+                            <a href="#"><h5> ERP. Sistema de administración de recursos</h5></a>
+                            <img src="imagenes/nueva3.jpg" height="40" whith="40"></img>
+                            <p>Este espacio está disponible para publicidad de su empresa.
+                                <a href="#">leer mas</a>    
+                            </p>                         
+                        </div>
+                    </div><!-- /span2 -->
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <p class="color_p2">&copy; Company 2012</p>
+                        </div>
+                        <div class="span6">
+                            <p class="color_p3">&copy; Company 2012</p>
+                        </div>
+                    </div>
+                </div>
+            </div>          
+        </div>
+    </footer>   
+
+
+</body>
+</html>

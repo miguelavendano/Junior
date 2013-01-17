@@ -1,17 +1,19 @@
 ﻿/*Horizontal Orientation CSS*/
 .jscarousal-horizontal        /*fondo contenedor*/
 {
-	width: 740px;
+/* 	width: 740px; */
+	width: 100%;
 	height: 218px;
 	background-color: #121212;
 	border: solid 1px #7A7677;
-	margin: 0;
-	padding: 0;
-	padding: 22px 8px 22px 8px;
-	position: relative; /*overflow: hidden;*/
+	padding: 20px 0px 20px 0px;
+	margin-top: 20px;	
+	margin-left: 1px;
+	margin-right: 1px;
+	/* position: relative; overflow: hidden; */
 }
 .jscarousal-horizontal-back, .jscarousal-horizontal-forward   
-{      /*alineacion barras verticales(donde estan las flechas)*/
+{ /*     alineacion barras verticales(donde estan las flechas) */
 	float: left;
 	width: 23px;
 	height: 198px;
@@ -19,8 +21,8 @@
 	color: White;
 	position: relative;
 	top: 6px;
-	cursor: pointer;
-}
+	cursor: pointer;	
+} 
 .jscarousal-horizontal-back
 {      /*flecha izquierdo*/
 	background-image: url(img/left_arrow.jpg);
@@ -35,33 +37,41 @@
 }
 .jscarousal-contents-horizontal
 {      /*contenedor de imagenes y texto*/
-	width: 690px;
-	height: 224px;
+	/* width: 690px;
+	height: 224px; */
+	width: 90%;
+	height: 220px;	
 	float: left;
 	position: relative;
 	overflow: hidden;
+	background: yellow;
 }
 .jscarousal-contents-horizontal > div
 {      
 	position: absolute;
 	width: 100%;
-	height: 124px;
+	height: 220px;
+	/* background: blue; */
 }
 .jscarousal-contents-horizontal > div > div
 {	   /*espacio entre imagenes*/
 	float: left;
 	margin-left: 8px;
-	margin-right: 8px;
+	/* margin-right: 8px; */
+	width: 8px;
+	height: 220px;	
+	background: green;
 } 
 .jscarousal-contents-horizontal img
-{	   /*tamaño unas*/
-	width: 212px;
-	height: 174px;
+{	   /*tamaño imagen*/
+	width: 95%;
+	height: 142px;
 	border: solid 1px #7A7677;
 }
-/*Horizontal Orientation CSS Ends*/
 
-/*Vertical Orientation CSS Starts*/
+/*Horizontal Orientation CSS Ends*/
+/* 
+Vertical Orientation CSS Starts
 .jscarousal-vertical
 {
 	width: 140px;
@@ -128,7 +138,7 @@
 	height: 80px;
 	border: solid 1px #7A7677;
 }
-/*Vertical Orientation CSS Ends*/
+Vertical Orientation CSS Ends */
 
 /*Common*/
 .hidden
@@ -156,9 +166,19 @@
 	color: #7A7677;
 	font-weight: bold;
 	text-align: left;
-/* display: inline-block;  */
-	display:block;
-	padding: 8px 2px 2px 0px;
-	width: 212px;
-	height: 10px;
+ /* display: inline-block; */ 
+	display:block; 
+	padding: 8px 2px 2px 6px;
+	width: auto;
+	height: 70px;		
+}
+.thumbnail-titulo
+{		/*diseño del titulo*/
+	color: #7A7677;
+	font-weight: bold;	
+	display:block;	
+	font-size: 25px;	
+	text-align: center;
+	width: auto;
+	height: 25px;
 }
