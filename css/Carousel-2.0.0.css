@@ -7,13 +7,13 @@
 	background-color: #121212;
 	border: solid 1px #7A7677;
 	padding: 20px 0px 20px 0px;
-	margin-top: 20px;	
+	/* margin-top: 20px; */	
 	margin-left: 1px;
 	margin-right: 1px;
 	/* position: relative; overflow: hidden; */
-}
+}/* 
 .jscarousal-horizontal-back, .jscarousal-horizontal-forward   
-{ /*     alineacion barras verticales(donde estan las flechas) */
+{  		alineacion barras verticales(donde estan las flechas)
 	float: left;
 	width: 23px;
 	height: 198px;
@@ -24,17 +24,17 @@
 	cursor: pointer;	
 } 
 .jscarousal-horizontal-back
-{      /*flecha izquierdo*/
+{      flecha izquierdo
 	background-image: url(img/left_arrow.jpg);
 	background-repeat: no-repeat;
 	background-position: left;
 }
 .jscarousal-horizontal-forward
-{      /*flecha derecho*/
+{     flecha derecho
 	background-image: url(img/right_arrow.jpg);
 	background-repeat: no-repeat;
 	background-position: right;
-}
+} */
 .jscarousal-contents-horizontal
 {      /*contenedor de imagenes y texto*/
 	/* width: 690px;
@@ -44,6 +44,7 @@
 	float: left;
 	position: relative;
 	overflow: hidden;
+	margin-left: 5px
 	/* background: yellow; */
 }
 .jscarousal-contents-horizontal > div
@@ -164,12 +165,12 @@ Vertical Orientation CSS Ends */
 .thumbnail-text
 {		/*diseño del texto*/
 	color: #7A7677;
-	/* font-weight: bold; */
+	font-weight: bold;
 	text-align: left;
  	display:block; 
-	padding: 5px 2px 2px 15px;	
-	width: 70%;
-	height: 40px;			
+	padding: 5px 2px 2px 10px;	
+	width: 80%;
+	height: 40px;		
 }
 .thumbnail-titulo
 {		/*diseño del titulo*/

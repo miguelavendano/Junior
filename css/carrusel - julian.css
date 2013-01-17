@@ -1,3 +1,8 @@
+/* --------------------DISEÑO INDEX-------------------- */
+.carousel .item {
+    background-color: #000;
+}
+
 .busqueda{
 	margin-top: 20px;
     border: 1px solid;
@@ -6,9 +11,8 @@
 .ferro{
 	margin-top: 20px;
 	/* background: red; 	*/
-	border: 2px solid;
+	/* border: 2px solid; */
 }
-
 
 .carrusel_publicidad{
 	position: relative;	
@@ -22,13 +26,6 @@
 	width: 90%;	
 }
 
-.im_perfil{
-    width: 100%;
-    height:250px;
-    padding-top: 50px;
-    /* background: red; */
- }
-
 .mas_contenido{
 	margin-top: 20px;
 	padding-top: 50px;
@@ -38,7 +35,7 @@
 	height: 900px;		
 	border: 2px solid;
 }
-
+/* 
 .mas_contenido h1{
 	font-size: 100px;
 }
@@ -48,7 +45,15 @@
 	margin-top: 50px;
 	margin-bottom: 80px;
 }
+ */
 
+/* --------------------DISEÑO PERFIL-------------------- */
 
+.im_perfil{
+    width: 100%;
+    height:250px;
+    padding-top: 50px;
+    /* background: red; */
+ }
 
  
