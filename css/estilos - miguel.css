@@ -71,7 +71,19 @@
 	border: 1px grey solid;	
 	margin-top: 5px;
 	width:inherit;
-	height: 130px;
+	height: 100px;
+	
 	/*background: grey;*/
 
 }
+
+/*#acordion-formulario{
+
+	background: blue;
+	width: 100%;
+}*/
+
+/*.tabbable{
+
+	background: red;
+}*/

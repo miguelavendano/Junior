@@ -128,6 +128,7 @@
 					                <div class="accordion-inner">  
 						                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Motores</a></br>
 						                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Pastas</a></br>	                
+		
 										<a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Motores</a></br>
 						                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Pastas</a>	
 					                </div>  
@@ -136,7 +137,8 @@
 				        </div>
 					</div>				
 
-					<div class="span8">				
+					<div class="span8">	
+
 						<div class="tabbable">
 						 	<ul class="nav nav-tabs">
 						    	<li class="active"><a href="#1" data-toggle="tab">Expertos</a></li>
@@ -322,12 +324,31 @@
 							
 							    <div class="tab-pane" id="2"> <!-- <p>Parte del contenidto para los proveedores</p> -->
 
-							    	<div class="formulario-filtro">							    		
-			                            <form class="navbar-form pull-right">
-			                                <input type="text" id="busca" placeholder="Que buscas?">
-			                                <button type="submit" class="btn">Submit</button>
-			                            </form>   
-							    	</div>
+						    		<!-- <div class="formulario-filtro">	 -->
+							    		<!-- <div class="span5 offset2">     -->
+					                        <div class="accordion2" id="acordion-formulario">  
+					                            <div class="accordion-group">  
+					                                <div class="accordion-heading">  
+					                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#formulario">
+					                                          Filtra tu busqueda para un mejor resultado
+					                                        </a>  
+					                                </div>  
+					                                <div id="formulario" class="accordion-body collapse" style="height: 0px; ">  
+					                                    <div class="accordion-inner">  
+											    			<!-- <div class="span1">											    				 -->
+									                            <form class="navbar-form pull-right">
+									                                <input type="text" id="busca" placeholder="Que buscas?">
+									                                <button type="submit" class="btn">Submit</button>
+									                            </form>   
+									                        <!-- </div> -->
+					                                    </div>  
+					                                </div>  
+					                            </div>
+					                        </div>
+					                    <!-- </div>	 -->
+				                    <!-- </div>		 -->
+				                    
+							    	
 
 							      	
 									<div class="resultados">
@@ -353,15 +374,6 @@
 												</div>																						
 											</div>		
 									</div>	
-
-
-
-
-
-
-
-
-
 							    </div>
 						    </div>
 					 	</div>
