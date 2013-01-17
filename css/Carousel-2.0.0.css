@@ -11,30 +11,31 @@
 	margin-left: 1px;
 	margin-right: 1px;
 	/* position: relative; overflow: hidden; */
-}/* 
+} 
+/*alineacion barras verticales(donde estan las flechas)*/
 .jscarousal-horizontal-back, .jscarousal-horizontal-forward   
-{  		alineacion barras verticales(donde estan las flechas)
+{  		
 	float: left;
 	width: 23px;
 	height: 198px;
 	background-color: #121212;
-	color: White;
+	color: white;
 	position: relative;
 	top: 6px;
 	cursor: pointer;	
 } 
-.jscarousal-horizontal-back
-{      flecha izquierdo
+.jscarousal-horizontal-back{
+/*{      flecha izquierdo*/
 	background-image: url(img/left_arrow.jpg);
 	background-repeat: no-repeat;
 	background-position: left;
 }
-.jscarousal-horizontal-forward
-{     flecha derecho
+.jscarousal-horizontal-forward{
+/*{     flecha derecho*/
 	background-image: url(img/right_arrow.jpg);
 	background-repeat: no-repeat;
 	background-position: right;
-} */
+}
 .jscarousal-contents-horizontal
 {      /*contenedor de imagenes y texto*/
 	/* width: 690px;

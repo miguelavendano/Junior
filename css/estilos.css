@@ -51,3 +51,22 @@ body{
 	position: fixed;
 	width: inherit;
 }
+
+/*Presentacion principal*/
+
+
+.presentacion{
+
+	width: inherit;
+	height: 750px;
+	border: 2px solid;
+	background: red;
+
+}
+
+
+
+
+
+
+
