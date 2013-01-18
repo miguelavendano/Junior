@@ -40,29 +40,3 @@
 
  	border: 1px red solid;
  }*/
-
-/* --------------------DISEÑO PERFIL-------------------- */
-
-.im_perfil{
-    width: 100%;
-<<<<<<< HEAD
-    height:250px;
-=======
-    /* height:250px; */
-    /* padding-top: 50px; */
-/*     background: red; */
->>>>>>> d65e40d18fd0a078715f01819a85214a8dcd6fbf
-	border: 1px solid silver;
- }
-
-.b-galeria{
-	width: 100%
-	height: 200px;	
-	border: 1px solid red;
-}
-
-.b-galeria .btn{
-	text-align: left;
-	padding-left: 10px; 
-	padding-right: 10px;
-}
