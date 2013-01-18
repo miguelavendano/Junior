@@ -11,10 +11,16 @@
 	margin-left: 1px;
 	margin-right: 1px;
 	/* position: relative; overflow: hidden; */
+<<<<<<< HEAD
 } 
 /*alineacion barras verticales(donde estan las flechas)*/
 .jscarousal-horizontal-back, .jscarousal-horizontal-forward   
 {  		
+=======
+}
+.jscarousal-horizontal-back, .jscarousal-horizontal-forward   
+{  		/* alineacion barras verticales(donde estan las flechas) */
+>>>>>>> 3b1c3ae37e9c3fe9b7847bff1a197a9ccb2a94ff
 	float: left;
 	width: 23px;
 	height: 198px;
@@ -24,18 +30,32 @@
 	top: 6px;
 	cursor: pointer;	
 } 
+<<<<<<< HEAD
 .jscarousal-horizontal-back{
 /*{      flecha izquierdo*/
+=======
+.jscarousal-horizontal-back
+{     /* flecha izquierdo */
+>>>>>>> 3b1c3ae37e9c3fe9b7847bff1a197a9ccb2a94ff
 	background-image: url(img/left_arrow.jpg);
 	background-repeat: no-repeat;
 	background-position: left;
 }
+<<<<<<< HEAD
 .jscarousal-horizontal-forward{
 /*{     flecha derecho*/
 	background-image: url(img/right_arrow.jpg);
 	background-repeat: no-repeat;
 	background-position: right;
 }
+=======
+.jscarousal-horizontal-forward
+{   /*  flecha derecho */
+	background-image: url(img/right_arrow.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+} 
+>>>>>>> 3b1c3ae37e9c3fe9b7847bff1a197a9ccb2a94ff
 .jscarousal-contents-horizontal
 {      /*contenedor de imagenes y texto*/
 	/* width: 690px;
@@ -45,7 +65,7 @@
 	float: left;
 	position: relative;
 	overflow: hidden;
-	margin-left: 5px
+	margin-left: 5px;
 	/* background: yellow; */
 }
 .jscarousal-contents-horizontal > div
