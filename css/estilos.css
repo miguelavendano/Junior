@@ -3,7 +3,7 @@
 	height: auto;
 } */
 
-.header .container-fluid{
+header .container-fluid{
 	float: inherit;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -19,7 +19,6 @@
 body{
 	/*background:#F2F2F2;	*/
 }
-
 
 
 
@@ -50,6 +49,7 @@ body{
 .accordion{
 	position: fixed;
 	width: inherit;
+	z-index: 99;
 }
 
 /*Presentacion principal*/
