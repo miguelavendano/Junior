@@ -51,7 +51,10 @@
                         onMouse: true,
                         onTouch: true
                     },
-                    scroll: 2,
+                    scroll: {
+                        fx: "uncover",                        
+                        easing: "linear"
+                    },
                     items: {
                         width: 400,
                         //height: '30%',    //  optionally resize item-height
@@ -250,104 +253,49 @@
                         </div>
                         <br>                    
                     
-                        <div class="ferro">    <!-- FERROCARIL DE IMAGENES -->
+                        <div class="ferro"><!-- FERROCARIL DE IMAGENES -->
                             <div class="container-fluid">
-                                <div class="row-fluid">
-                                    <div class="span12">
-                                        <div class="row-fluid list_carousel responsive">
-                                            <div class="span1">
-                                                <a id="prev" class="prev" href="#"></a>           
-                                            </div>
-
-                                            <div class="span10">
-                                                                                           
-                                                <ul id="foo">
-                                                        <li>
-                                                            <div class="ferro-titulo">Titulo</div>
-                                                            <img src="images/img_1.jpg" class="img-polaroid" />
-                                                            <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
-                                                        </li>   
-                                                        <li>
-                                                            <div class="ferro-titulo">Titulo</div>
-                                                            <img src="images/img_2.jpg" class="img-polaroid" />
-                                                            <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
-                                                        </li>   
-                                                        <li>
-                                                            <div class="ferro-titulo">Titulo</div>
-                                                            <img src="images/img_3.jpg" class="img-polaroid" />
-                                                            <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
-                                                        </li>   
-                                                        <li>
-                                                            <div class="ferro-titulo">Titulo</div>
-                                                            <img src="images/img_4.jpg" class="img-polaroid" />
-                                                            <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
-                                                        </li>   
-                                                        <li>
-                                                            <div class="ferro-titulo">Titulo</div>
-                                                            <img src="images/img_5.jpg" class="img-polaroid" />
-                                                            <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
-                                                        </li>   
-                                                        <li>
-                                                            <div class="ferro-titulo">Titulo</div>
-                                                            <img src="images/img_6.jpg" class="img-polaroid" />
-                                                            <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
-                                                        </li>   
-                                                        <li>
-                                                            <div class="ferro-titulo">Titulo</div>
-                                                            <img src="images/img_7.jpg" class="img-polaroid" />
-                                                            <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
-                                                        </li>   
-                                                        <li>
-                                                            <div class="ferro-titulo">Titulo</div>
-                                                            <img src="images/img_8.jpg" class="img-polaroid" />
-                                                            <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
-                                                        </li>   
-                                                        <li>
-                                                            <div class="ferro-titulo">Titulo</div>
-                                                            <img src="images/img_9.jpg" class="img-polaroid" />
-                                                            <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
-                                                        </li>   
-                                                        <li>
-                                                            <div class="ferro-titulo">Titulo</div>
-                                                            <img src="images/img_10.jpg" class="img-polaroid" />
-                                                            <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
-                                                        </li>   
-                                                        <li>
-                                                            <div class="ferro-titulo">Titulo</div>
-                                                            <img src="images/img_11.jpg" class="img-polaroid" />
-                                                            <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
-                                                        </li>   
-                                                        <li>
-                                                            <div class="ferro-titulo">Titulo</div>
-                                                            <img src="images/img_12.jpg" class="img-polaroid" />
-                                                            <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres
-                                                            <a href="#">Leer mas...</a></div>
-                                                        </li>                                    
-                                                        <li>
-                                                            <div class="ferro-titulo">Titulo</div>
-                                                            <img src="images/img_13.jpg" class="img-polaroid" />
-                                                            <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
-                                                        </li>   
-                                                </ul>       
-                                                    
-                                                <div class="clearfix"></div>
-                                                <!-- <div id="paginas" class="paginas"></div>  -->
-                                            
-                                            </div>                                                 
-                                            <div class="span1">
-                                                <a id="next" class="next" href="#"></a>
-                                            </div>
-
-                                        </div>
+                                <div class="row-fluid list_carousel responsive">                                                     
+                                            <ul id="foo">
+                                                <li>
+                                                    <div class="ferro-titulo">Titulo</div>
+                                                    <img src="images/img_1.jpg" class="img-polaroid" />
+                                                    <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
+                                                </li>   
+                                                <li>
+                                                    <div class="ferro-titulo">Titulo</div>
+                                                    <img src="images/img_2.jpg" class="img-polaroid" />
+                                                    <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
+                                                </li>   
+                                                <li>
+                                                    <div class="ferro-titulo">Titulo</div>
+                                                    <img src="images/img_3.jpg" class="img-polaroid" />
+                                                    <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
+                                                </li>   
+                                                <li>
+                                                    <div class="ferro-titulo">Titulo</div>
+                                                    <img src="images/img_4.jpg" class="img-polaroid" />
+                                                    <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
+                                                </li>   
+                                                <li>
+                                                    <div class="ferro-titulo">Titulo</div>
+                                                    <img src="images/img_5.jpg" class="img-polaroid" />
+                                                    <div class="ferro-text">El tamaño de este texto debe ser de 65 caracteres <a href="#">Leer mas...</a></div>
+                                                </li>   
+                                                        
+                                            </ul>                                                           
+                                            <!-- <div id="paginas" class="paginas"></div>  -->                                     
                                     </div>
                                 </div>
-                            </div>                            
+                                <a id="prev" class="prev" href="#"></a>
+                                <a id="next" class="next" href="#"></a>
                         </div>  
-                        
+
                     
 
                         <div class="mas_contenido">
                             <h1>Titulo</h1><p>Contenido... <br></p>
+                            <a href="#" class="btn btn-primary">ejemplo</a>
                             <h1>Titulo</h1><p>Contenido... <br></p>
                             <h1>Titulo</h1><p>Contenido... <br></p>
                             <h1>Titulo</h1><p>Contenido... <br></p>
